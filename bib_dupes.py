@@ -55,8 +55,8 @@ def main():
         duplicates = findDuplicates(dois)
         if duplicates:
             print("Duplicate DOIs found:")
-            for dup in duplicates:
-                print(dup)
+            for dupe in duplicates:
+                print(dupe)
         else:
             print("No duplicate DOIs found.")
     else:
